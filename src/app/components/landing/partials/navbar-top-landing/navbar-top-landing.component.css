@@ -1,0 +1,102 @@
+.navbar {
+    background-color: rgba(33, 33, 33, .8) !important;
+}
+
+.navbar .navbar-toggle {
+    width: auto !important;
+    height: auto !important;
+    padding: 1px 6px !important;
+    margin-top: 4px !important;
+    transition: ease-in-out .35s;
+}
+
+.navbar .navbar-toggle:before {
+    content: '\E5D2' !important;
+    font-family: 'Material Icons' !important;
+    font-size: 26px;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #EEEEEE;
+    color: #00897B;
+}
+
+.navbar-brand {
+    margin-left: 0px !important;
+    padding: 20px 15px !important;
+}
+
+.navbar .divider-vertical {
+    height: 50px;
+    margin: 0 9px;
+    border-right: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.navbar-nav>li>a>i {
+    margin-right: 6px;
+}
+
+@media (min-width: 768px) {
+    .navbar-right {
+        margin-right: 0px !important;
+        padding: 15px 0px !important;
+    }
+    .navbar-nav>li>a {
+        padding: 15px 10px !important;
+        margin: 0px !important;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        color: #FFFFFF;
+        transition: ease-in-out .2s;
+    }
+    .navbar-nav>li>a:hover,
+    .navbar-nav>li>a:focus,
+    .navbar-nav>li.active>a:hover,
+    .navbar-nav>li.active>a:focus {
+        color: #4DB6AC;
+    }
+    .navbar-nav>li.active>a {
+        color: #FFFFFF;
+        background: rgba(33, 33, 33, 0.3);
+        border-radius: 5px;
+        padding: 15px 20px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse {
+        padding: 0px !important;
+        background: rgba(33, 33, 33, 0.6);
+    }
+    .navbar .navbar-nav {
+        margin: 5px 0px !important;
+    }
+    .navbar .nav>li {
+        display: block !important;
+    }
+    .navbar-nav>li>a {
+        text-transform: uppercase;
+        font-family: sans-serif;
+        padding: 10px 20px;
+        margin: 0px;
+        color: #EEEEEE;
+        transition: ease-in-out .2s;
+    }
+    .navbar-nav>li>a:hover,
+    .navbar-nav>li>a:focus {
+        padding-left: 30px;
+        color: #4DB6AC;
+        font-weight: bold;
+        background: rgba(33, 33, 33, 0.8);
+    }
+    .navbar-nav>li.active>a {
+        padding-left: 30px;
+        color: #4DB6AC;
+        font-weight: bold;
+        background: rgba(33, 33, 33, 0.5);
+    }
+    .navbar-collapse .nav>.divider-vertical {
+        display: none !important;
+    }
+}
