@@ -6,6 +6,7 @@ import { ViewsComponent } from './views.component';
 import { NavbarTopComponent } from './partials/navbar-top/navbar-top.component';
 import { NavbarLeftComponent } from './partials/navbar-left/navbar-left.component';
 import { HomeComponent } from './home/home.component';
+import { TypographyComponent } from './typography/typography.component';
 
 @NgModule({
   imports: [
@@ -16,7 +17,8 @@ import { HomeComponent } from './home/home.component';
     ViewsComponent,
     NavbarTopComponent,
     NavbarLeftComponent,
-    HomeComponent
+    HomeComponent,
+    TypographyComponent
   ],
   providers: []
 })

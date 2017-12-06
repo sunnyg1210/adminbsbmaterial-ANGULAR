@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { ViewsComponent } from './views.component';
 import { HomeComponent } from './home/home.component';
+import { TypographyComponent } from './typography/typography.component';
 
 const viewsRoutes: Routes = [
   {
@@ -10,6 +11,7 @@ const viewsRoutes: Routes = [
       component: ViewsComponent,
       children: [
         { path: 'home', component: HomeComponent },
+        { path: 'typography', component: TypographyComponent },
         { path: '', redirectTo: 'home', pathMatch: 'full' }
     ]
   }

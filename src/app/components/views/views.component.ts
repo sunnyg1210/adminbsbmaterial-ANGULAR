@@ -16,11 +16,12 @@ export class ViewsComponent implements OnInit {
   ngOnInit() {
     let body = document.getElementsByTagName('body')[0];
     body.classList.add(Config.THEME.views);
-  }
-
-  ngAfterViewInit() {
     this.themeHelper.viewsActivate();
   }
+
+  // ngAfterViewInit() {
+  //   this.themeHelper.viewsActivate();
+  // }
 
   ngOnDestroy() {
     let body = document.getElementsByTagName('body')[0];

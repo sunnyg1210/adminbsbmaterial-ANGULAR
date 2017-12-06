@@ -28,23 +28,14 @@
         <div class="menu">
             <ul class="list">
                 <li class="header">MAIN NAVIGATION</li>
-                <li class="active">
-                    <a href="index.html">
-                        <i class="material-icons">home</i>
-                        <span>Home</span>
-                    </a>
+                <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                    <a [routerLink]="['/views/home']"><i class="material-icons">home</i> <span>Home</span></a>
                 </li>
-                <li>
-                    <a href="pages/typography.html">
-                        <i class="material-icons">text_fields</i>
-                        <span>Typography</span>
-                    </a>
+                <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                    <a [routerLink]="['/views/typography']"><i class="material-icons">text_fields</i> <span>Typography</span></a>
                 </li>
-                <li>
-                    <a href="pages/helper-classes.html">
-                        <i class="material-icons">layers</i>
-                        <span>Helper Classes</span>
-                    </a>
+                <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                    <a [routerLink]="['/views/helper-classes']"><i class="material-icons">layers</i> <span>Helper Classes</span></a>
                 </li>
                 <li>
                     <a href="javascript:void(0);" class="menu-toggle">
@@ -57,14 +48,14 @@
                                 <span>Cards</span>
                             </a>
                             <ul class="ml-menu">
-                                <li>
-                                    <a href="pages/widgets/cards/basic.html">Basic</a>
+                                <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                                    <a [routerLink]="['/views/widgets/cards/basic']">Basic</a>
                                 </li>
-                                <li>
-                                    <a href="pages/widgets/cards/colored.html">Colored</a>
+                                <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                                    <a [routerLink]="['/views/widgets/cards/colored']">Colored</a>
                                 </li>
-                                <li>
-                                    <a href="pages/widgets/cards/no-header.html">No Header</a>
+                                <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                                    <a [routerLink]="['/views/widgets/cards/no-header']">No Header</a>
                                 </li>
                             </ul>
                         </li>
@@ -73,20 +64,20 @@
                                 <span>Infobox</span>
                             </a>
                             <ul class="ml-menu">
-                                <li>
-                                    <a href="pages/widgets/infobox/infobox-1.html">Infobox-1</a>
+                                <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                                    <a [routerLink]="['/views/widgets/infobox/infobox-1']">Infobox-1</a>
                                 </li>
-                                <li>
-                                    <a href="pages/widgets/infobox/infobox-2.html">Infobox-2</a>
+                                <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                                    <a [routerLink]="['/views/widgets/infobox/infobox-2']">Infobox-2</a>
                                 </li>
-                                <li>
-                                    <a href="pages/widgets/infobox/infobox-3.html">Infobox-3</a>
+                                <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                                    <a [routerLink]="['/views/widgets/infobox/infobox-3']">Infobox-3</a>
                                 </li>
-                                <li>
-                                    <a href="pages/widgets/infobox/infobox-4.html">Infobox-4</a>
+                                <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                                    <a [routerLink]="['/views/widgets/infobox/infobox-4']">Infobox-4</a>
                                 </li>
-                                <li>
-                                    <a href="pages/widgets/infobox/infobox-5.html">Infobox-5</a>
+                                <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                                    <a [routerLink]="['/views/widgets/infobox/infobox-5']">Infobox-5</a>
                                 </li>
                             </ul>
                         </li>
@@ -98,75 +89,74 @@
                         <span>User Interface (UI)</span>
                     </a>
                     <ul class="ml-menu">
-                        <li>
-                            <a href="pages/ui/alerts.html">Alerts</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/ui/alerts']">Alerts</a>
                         </li>
-                        <li>
-                            <a href="pages/ui/animations.html">Animations</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/ui/animations']">Aninmations</a>
                         </li>
-                        <li>
-                            <a href="pages/ui/badges.html">Badges</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/ui/badges']">Badges</a>
                         </li>
-
-                        <li>
-                            <a href="pages/ui/breadcrumbs.html">Breadcrumbs</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/ui/breadcrumbs']">Breadcrumbs</a>
                         </li>
-                        <li>
-                            <a href="pages/ui/buttons.html">Buttons</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/ui/buttons']">Buttons</a>
                         </li>
-                        <li>
-                            <a href="pages/ui/collapse.html">Collapse</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/ui/collapse']">Collapse</a>
                         </li>
-                        <li>
-                            <a href="pages/ui/colors.html">Colors</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/ui/colors']">Colors</a>
                         </li>
-                        <li>
-                            <a href="pages/ui/dialogs.html">Dialogs</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/ui/dialogs']">Dialogs</a>
                         </li>
-                        <li>
-                            <a href="pages/ui/icons.html">Icons</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/ui/icons']">Icons</a>
                         </li>
-                        <li>
-                            <a href="pages/ui/labels.html">Labels</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/ui/labels']">Labels</a>
                         </li>
-                        <li>
-                            <a href="pages/ui/list-group.html">List Group</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/ui/list-group']">List Group</a>
                         </li>
-                        <li>
-                            <a href="pages/ui/media-object.html">Media Object</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/ui/media-object']">Media Object</a>
                         </li>
-                        <li>
-                            <a href="pages/ui/modals.html">Modals</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/ui/modals']">Modals</a>
                         </li>
-                        <li>
-                            <a href="pages/ui/notifications.html">Notifications</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/ui/notifications']">Notifications</a>
                         </li>
-                        <li>
-                            <a href="pages/ui/pagination.html">Pagination</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/ui/pagination']">Pagination</a>
                         </li>
-                        <li>
-                            <a href="pages/ui/preloaders.html">Preloaders</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/ui/preloaders']">Preloaders</a>
                         </li>
-                        <li>
-                            <a href="pages/ui/progressbars.html">Progress Bars</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/ui/progressbars']">Progress Bars</a>
                         </li>
-                        <li>
-                            <a href="pages/ui/range-sliders.html">Range Sliders</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/ui/range-sliders']">Range Sliders</a>
                         </li>
-                        <li>
-                            <a href="pages/ui/sortable-nestable.html">Sortable & Nestable</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/ui/sortable-nestable']">Sortable &amp; Nestable</a>
                         </li>
-                        <li>
-                            <a href="pages/ui/tabs.html">Tabs</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/ui/tabs']">Tabs</a>
                         </li>
-                        <li>
-                            <a href="pages/ui/thumbnails.html">Thumbnails</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/ui/thumbnails']">Thumbnails</a>
                         </li>
-                        <li>
-                            <a href="pages/ui/tooltips-popovers.html">Tooltips & Popovers</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/ui/tooltips-popovers']">Tooltips &amp; Popovers</a>
                         </li>
-                        <li>
-                            <a href="pages/ui/waves.html">Waves</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/ui/waves']">Waves</a>
                         </li>
                     </ul>
                 </li>
@@ -176,23 +166,23 @@
                         <span>Forms</span>
                     </a>
                     <ul class="ml-menu">
-                        <li>
-                            <a href="pages/forms/basic-form-elements.html">Basic Form Elements</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/forms/basic']">Basic Form Elements</a>
                         </li>
-                        <li>
-                            <a href="pages/forms/advanced-form-elements.html">Advanced Form Elements</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/forms/advanced']">Advanced Form Elements</a>
                         </li>
-                        <li>
-                            <a href="pages/forms/form-examples.html">Form Examples</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/forms/examples']">Form Examples</a>
                         </li>
-                        <li>
-                            <a href="pages/forms/form-validation.html">Form Validation</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/forms/validation']">Form Validation</a>
                         </li>
-                        <li>
-                            <a href="pages/forms/form-wizard.html">Form Wizard</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/forms/wizard']">Form Wizard</a>
                         </li>
-                        <li>
-                            <a href="pages/forms/editors.html">Editors</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/forms/editors']">Editors</a>
                         </li>
                     </ul>
                 </li>
@@ -202,14 +192,14 @@
                         <span>Tables</span>
                     </a>
                     <ul class="ml-menu">
-                        <li>
-                            <a href="pages/tables/normal-tables.html">Normal Tables</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/tables/normal-tables']">Bootstrap Tables</a>
                         </li>
-                        <li>
-                            <a href="pages/tables/jquery-datatable.html">Jquery Datatables</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/tables/ngx-datatable']">ngx Data Tables</a>
                         </li>
-                        <li>
-                            <a href="pages/tables/editable-table.html">Editable Tables</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/tables/ng2-smart-table']">ng2 Smart Table</a>
                         </li>
                     </ul>
                 </li>
@@ -219,11 +209,11 @@
                         <span>Medias</span>
                     </a>
                     <ul class="ml-menu">
-                        <li>
-                            <a href="pages/medias/image-gallery.html">Image Gallery</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/medias/image-gallery']">Image Gallery</a>
                         </li>
-                        <li>
-                            <a href="pages/medias/carousel.html">Carousel</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/medias/carousel']">Carousel</a>
                         </li>
                     </ul>
                 </li>
@@ -233,20 +223,8 @@
                         <span>Charts</span>
                     </a>
                     <ul class="ml-menu">
-                        <li>
-                            <a href="pages/charts/morris.html">Morris</a>
-                        </li>
-                        <li>
-                            <a href="pages/charts/flot.html">Flot</a>
-                        </li>
-                        <li>
-                            <a href="pages/charts/chartjs.html">ChartJS</a>
-                        </li>
-                        <li>
-                            <a href="pages/charts/sparkline.html">Sparkline</a>
-                        </li>
-                        <li>
-                            <a href="pages/charts/jquery-knob.html">Jquery Knob</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/charts/ngx-charts']">ngx-Charts</a>
                         </li>
                     </ul>
                 </li>
@@ -256,23 +234,20 @@
                         <span>Example Pages</span>
                     </a>
                     <ul class="ml-menu">
-                        <li>
-                            <a href="pages/examples/sign-in.html">Sign In</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/auth']">Sign In</a>
                         </li>
-                        <li>
-                            <a href="pages/examples/sign-up.html">Sign Up</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/auth/register']">Register</a>
                         </li>
-                        <li>
-                            <a href="pages/examples/forgot-password.html">Forgot Password</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/auth/forgot']">Forgot Password</a>
                         </li>
-                        <li>
-                            <a href="pages/examples/blank.html">Blank Page</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/blank']">Blank Page</a>
                         </li>
-                        <li>
-                            <a href="pages/examples/404.html">404 - Not Found</a>
-                        </li>
-                        <li>
-                            <a href="pages/examples/500.html">500 - Server Error</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/404']">404 - Not Found</a>
                         </li>
                     </ul>
                 </li>
@@ -282,14 +257,14 @@
                         <span>Maps</span>
                     </a>
                     <ul class="ml-menu">
-                        <li>
-                            <a href="pages/maps/google.html">Google Map</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/maps/google']">Google Maps</a>
                         </li>
-                        <li>
-                            <a href="pages/maps/yandex.html">YandexMap</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/maps/yandex']">YandexMap</a>
                         </li>
-                        <li>
-                            <a href="pages/maps/jvectormap.html">jVectorMap</a>
+                        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                            <a [routerLink]="['/views/maps/jvectormap']">jVectorMap</a>
                         </li>
                     </ul>
                 </li>
@@ -335,11 +310,8 @@
                         </li>
                     </ul>
                 </li>
-                <li>
-                    <a href="pages/changelogs.html">
-                        <i class="material-icons">update</i>
-                        <span>Changelogs</span>
-                    </a>
+                <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                    <a [routerLink]="['/views/changelogs']"><i class="material-icons">update</i> <span>Changelogs</span></a>
                 </li>
                 <li class="header">LABELS</li>
                 <li>
