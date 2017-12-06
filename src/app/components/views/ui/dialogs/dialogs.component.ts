@@ -12,8 +12,5 @@ export class DialogsComponent implements OnInit {
   ngOnInit() {
   }
 
-  basic() {
-    
-  }
 
 }
