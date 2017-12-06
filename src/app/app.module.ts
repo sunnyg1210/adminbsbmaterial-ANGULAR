@@ -10,6 +10,9 @@ import { ViewsModule } from './components/views/views.module';
 // Main Components
 import { AppComponent } from './app.component';
 
+// Services
+import { ThemeHelpersService } from './helpers/theme-helpers/theme-helpers.service';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -21,7 +24,9 @@ import { AppComponent } from './app.component';
     ViewsModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    ThemeHelpersService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

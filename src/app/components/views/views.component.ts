@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Config } from '../../classes/config';
+import { ThemeHelpersService } from '../../helpers/theme-helpers/theme-helpers.service';
 
 @Component({
   selector: 'app-views',
@@ -8,11 +9,17 @@ import { Config } from '../../classes/config';
 })
 export class ViewsComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    public themeHelper: ThemeHelpersService
+  ) { }
 
   ngOnInit() {
     let body = document.getElementsByTagName('body')[0];
     body.classList.add(Config.THEME.views);
+  }
+
+  ngAfterViewInit() {
+    this.themeHelper.viewsActivate();
   }
 
   ngOnDestroy() {
