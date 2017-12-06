@@ -5,7 +5,7 @@ export class Config {
         author: 'Sunny',
         copyright: {
             year: '2017',
-            owner: 'Sunny Gohil',
+            owner: 'Sunny Gohil @ SVS IT Solutions',
             url: 'http://example.com'
         }
     };
