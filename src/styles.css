@@ -23,3 +23,34 @@
     margin-top: -95px;
     position: relative;
 }
+
+.navbar-brand.views {
+    width: 50px !important;
+    height: 50px !important;
+    padding: 0px !important;
+}
+
+.navbar-brand.views img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+@media (max-width: 767px) {
+    .navbar-brand.views {
+        margin-left: 55px !important;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .navbar>.container .navbar-brand.views,
+    .navbar>.container-fluid .navbar-brand.views {
+        margin-left: 40px !important;
+    }
+}
+
+@media (max-width: 1169px) and (min-width: 992px) {
+    .navbar>.container .navbar-brand.views,
+    .navbar>.container-fluid .navbar-brand.views {
+        margin-left: 40px !important;
+    }
+}
