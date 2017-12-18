@@ -4,6 +4,14 @@
     background-color: #ffffff !important;
 }
 
+.notification-box {
+    display: block;
+    position: fixed;
+    top: 90px;
+    right: 20px;
+    z-index: 1000;
+}
+
 .profile-avatar {
     border-radius: 100%;
     margin: 0 auto;

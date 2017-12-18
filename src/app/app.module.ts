@@ -13,16 +13,20 @@ import { AppComponent } from './app.component';
 // Services
 import { ThemeHelpersService } from './helpers/theme-helpers/theme-helpers.service';
 
+// External Modules
+import { FlashMessagesModule } from 'angular2-flash-messages';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
     BrowserModule,
+    FlashMessagesModule.forRoot(),
     LandingModule,
     AuthModule,
     ViewsModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [
     ThemeHelpersService

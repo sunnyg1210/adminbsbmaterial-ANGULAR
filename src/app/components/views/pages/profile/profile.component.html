@@ -21,7 +21,7 @@
                                       <i class="material-icons">person</i>
                                   </span>
                                 <div class="form-line">
-                                    <input type="text" class="form-control" placeholder="Username" value="{{profile.username}}" disabled>
+                                    <input type="text" class="form-control" placeholder="Username" disabled formControlName="username">
                                 </div>
                             </div>
                         </div>
@@ -65,40 +65,40 @@
                 </form>
             </div>
         </div>
-        <!-- <div class="card">
-          <div class="header">
-              <h2>
-                  Reset Password
-                  <small>Change account password</small>
-              </h2>
-          </div>
-          <div class="body">
-              <form [formGroup]="resetPassForm" (ngSubmit)="resetPassword()">
-                  <div class="row clearfix">
-                      <div class="col-md-5">
-                          <div class="form-group">
-                              <div class="form-line">
-                                  <input type="password" class="form-control" placeholder="New Password" formControlName="newpass">
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-md-5">
-                          <div class="form-group">
-                              <div class="form-line">
-                                  <input type="password" class="form-control" placeholder="Confirm New Password" formControlName="newpassconfirm">
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-md-2">
-                          <button type="submit" class="btn btn-info btn-lg m-l-15 waves-effect" [disabled]="passResetDisabled[0]">RESET</button>
-                      </div>
-                      <div class="col-md-12" *ngIf="passResetDisabled[1]">
-                          <p class="font-bold col-pink">Passwords do not match</p>
-                      </div>
-                  </div>
-              </form>
-          </div>
-      </div> -->
+        <div class="card">
+            <div class="header">
+                <h2>
+                    Reset Password
+                    <small>Change account password</small>
+                </h2>
+            </div>
+            <div class="body">
+                <form [formGroup]="resetPassForm" (ngSubmit)="resetPassword()">
+                    <div class="row clearfix">
+                        <div class="col-md-5">
+                            <div class="form-group">
+                                <div class="form-line">
+                                    <input type="password" class="form-control" placeholder="New Password" formControlName="newpass">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="form-group">
+                                <div class="form-line">
+                                    <input type="password" class="form-control" placeholder="Confirm New Password" formControlName="newpassconfirm">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <button type="submit" class="btn btn-info btn-lg m-l-15 waves-effect" [disabled]="passResetDisabled[0]">RESET</button>
+                        </div>
+                        <div class="col-md-12" *ngIf="passResetDisabled[1]">
+                            <p class="font-bold col-pink">Passwords do not match</p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
     <div class="col-md-4">
         <div class="card">
