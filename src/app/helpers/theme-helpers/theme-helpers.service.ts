@@ -1,7 +1,5 @@
 import { Injectable } from '@angular/core';
-import 'jquery';
 declare var $: any;
-import '../../../assets/js/admin.js';
 
 @Injectable()
 export class ThemeHelpersService {

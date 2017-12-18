@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { ViewsRoutingModule } from './views-routing.module';
 import { ViewsComponent } from './views.component';
@@ -40,12 +41,14 @@ import { TabsComponent } from './ui/tabs/tabs.component';
 import { ThumbnailsComponent } from './ui/thumbnails/thumbnails.component';
 import { TooltipsPopoversComponent } from './ui/tooltips-popovers/tooltips-popovers.component';
 import { WavesComponent } from './ui/waves/waves.component';
+import { ProfileComponent } from './pages/profile/profile.component';
 
 @NgModule({
   imports: [
     CommonModule,
     ViewsRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   declarations: [
     ViewsComponent,
@@ -84,7 +87,8 @@ import { WavesComponent } from './ui/waves/waves.component';
     TabsComponent,
     ThumbnailsComponent,
     TooltipsPopoversComponent,
-    WavesComponent
+    WavesComponent,
+    ProfileComponent
   ],
   providers: []
 })

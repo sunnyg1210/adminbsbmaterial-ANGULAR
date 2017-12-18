@@ -1,0 +1,119 @@
+<div class="block-header">
+    <h2>MY PROFILE</h2>
+</div>
+
+<div class="row clearfix">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="header">
+                <h2>
+                    Edit Profile
+                    <small>Make changes to my profile information</small>
+                </h2>
+            </div>
+            <div class="body">
+                <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+                    <div class="row clearfix">
+                        <div class="col-md-4">
+                            <b>Username</b>
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                      <i class="material-icons">person</i>
+                                  </span>
+                                <div class="form-line">
+                                    <input type="text" class="form-control" placeholder="Username" value="{{profile.username}}" disabled>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <b>Email Address *</b>
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                      <i class="material-icons">email</i>
+                                  </span>
+                                <div class="form-line">
+                                    <input type="email" class="form-control email" placeholder="Ex: example@example.com" formControlName="email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <b>First Name *</b>
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                  <i class="material-icons">text_format</i>
+                              </span>
+                                <div class="form-line">
+                                    <input type="text" class="form-control" placeholder="Your First Name" formControlName="firstname">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <b>Last Name</b>
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                  <i class="material-icons">text_format</i>
+                              </span>
+                                <div class="form-line">
+                                    <input type="text" class="form-control" placeholder="Your Last Name" formControlName="lastname">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-info btn-fill btn-lg waves-effect pull-right"><span>UPDATE PROFILE</span> <i class="material-icons">check</i></button>
+                    <div class="clearfix"></div>
+                    <br>
+                </form>
+            </div>
+        </div>
+        <!-- <div class="card">
+          <div class="header">
+              <h2>
+                  Reset Password
+                  <small>Change account password</small>
+              </h2>
+          </div>
+          <div class="body">
+              <form [formGroup]="resetPassForm" (ngSubmit)="resetPassword()">
+                  <div class="row clearfix">
+                      <div class="col-md-5">
+                          <div class="form-group">
+                              <div class="form-line">
+                                  <input type="password" class="form-control" placeholder="New Password" formControlName="newpass">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-5">
+                          <div class="form-group">
+                              <div class="form-line">
+                                  <input type="password" class="form-control" placeholder="Confirm New Password" formControlName="newpassconfirm">
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-2">
+                          <button type="submit" class="btn btn-info btn-lg m-l-15 waves-effect" [disabled]="passResetDisabled[0]">RESET</button>
+                      </div>
+                      <div class="col-md-12" *ngIf="passResetDisabled[1]">
+                          <p class="font-bold col-pink">Passwords do not match</p>
+                      </div>
+                  </div>
+              </form>
+          </div>
+      </div> -->
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="image" style="background-color: #212121; height: 100px;"></div>
+            <div class="body text-center">
+                <img class="profile-avatar border-gray" src="assets/images/a.png" alt="..." />
+                <h2>Sunny Gohil</h2>
+                <p class="font-bold">sunny@example.com</p>
+                <p class="font-bold col-pink">Administrator</p>
+            </div>
+        </div>
+        <div class="text-center">
+            <button href="#" class="btn btn-default waves-effect"><i class="fa fa-facebook-square"></i></button>
+            <button href="#" class="btn btn-default waves-effect"><i class="fa fa-twitter"></i></button>
+            <button href="#" class="btn btn-default waves-effect"><i class="fa fa-google-plus-square"></i></button>
+        </div>
+    </div>
+</div>

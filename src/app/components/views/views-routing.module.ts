@@ -37,6 +37,7 @@ import { TabsComponent } from './ui/tabs/tabs.component';
 import { ThumbnailsComponent } from './ui/thumbnails/thumbnails.component';
 import { TooltipsPopoversComponent } from './ui/tooltips-popovers/tooltips-popovers.component';
 import { WavesComponent } from './ui/waves/waves.component';
+import { ProfileComponent } from './pages/profile/profile.component';
 
 const viewsRoutes: Routes = [
   {
@@ -77,7 +78,8 @@ const viewsRoutes: Routes = [
         { path: 'ui/thumbnails', component: ThumbnailsComponent },
         { path: 'ui/tooltips-popovers', component: TooltipsPopoversComponent },
         { path: 'ui/waves', component: WavesComponent },
-
+        { path: 'pages/profile', component: ProfileComponent },
+        
         { path: '', redirectTo: 'home', pathMatch: 'full' }
     ]
   }

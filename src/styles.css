@@ -3,3 +3,15 @@
 .landing-bg {
     background-color: #ffffff !important;
 }
+
+.profile-avatar {
+    border-radius: 100%;
+    margin: 0 auto;
+    display: block;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    background: #ffffff;
+    margin-top: -95px;
+    position: relative;
+}

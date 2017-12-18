@@ -8,7 +8,7 @@ import { Config } from '../../../../classes/config';
 })
 export class NavbarLeftComponent implements OnInit {
 
-  appInfo: Object = Config.APP;
+  appInfo: any = Config.APP;
 
   constructor() { }
 
