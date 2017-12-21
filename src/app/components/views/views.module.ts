@@ -42,6 +42,9 @@ import { ThumbnailsComponent } from './ui/thumbnails/thumbnails.component';
 import { TooltipsPopoversComponent } from './ui/tooltips-popovers/tooltips-popovers.component';
 import { WavesComponent } from './ui/waves/waves.component';
 import { ProfileComponent } from './pages/profile/profile.component';
+import { BootstrapTablesComponent } from './tables/bootstrap-tables/bootstrap-tables.component';
+import { NgxTableComponent } from './tables/ngx-table/ngx-table.component';
+import { Ng2TableComponent } from './tables/ng2-table/ng2-table.component';
 
 @NgModule({
   imports: [
@@ -88,7 +91,10 @@ import { ProfileComponent } from './pages/profile/profile.component';
     ThumbnailsComponent,
     TooltipsPopoversComponent,
     WavesComponent,
-    ProfileComponent
+    ProfileComponent,
+    BootstrapTablesComponent,
+    NgxTableComponent,
+    Ng2TableComponent
   ],
   providers: []
 })
