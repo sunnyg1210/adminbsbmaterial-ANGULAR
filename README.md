@@ -1,27 +1,58 @@
-# AdminbsbmaterialAngular
+AdminBSBMaterial ANGULAR 4 THEME
+=======================
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.5.
+Fully responsive template converted to Angular 4 from the original html version which can be found [here](https://github.com/gurayyarar/AdminBSBMaterialDesign#readme).
 
-## Development server
+This angular 4 version has been developed by Sunny Gohil and is supported by the team at [https://svsitsolutions.co.uk](SVS IT SOLUTIONS) and [https://maverickswebstudio.co.uk](Mavericks Web Studio)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![SVS IT SOLUTIONS](https://svsitsolutions.co.uk/wp-content/uploads/2017/05/new-svs-website-logo.png)
+![Mavericks Web Studio](http://maverickswebstudio.co.uk/wp-content/uploads/2017/04/MA2-1.png)
 
-## Code scaffolding
+Demo
+----------------
+**COMING SOON**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+Installation
+----------------
+- Clone the repository:
+`git clone https://github.com/sunnyg1210/adminbsbmaterial-ANGULAR`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+- Install npm packages:
+`npm install`
 
-## Running unit tests
+- Run Angular dev server:
+`ng serve`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Build Production code:
+`ng build --prod`
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Documentation
+----------
+**COMING SOON**
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Starter Kit
+----------
+**COMING SOON**
+
+
+FAQ (Same as the original project)
+===
+
+**Can I use this template for personal or commercial websites/web projects?**  
+Sure, you can use both of personal and commercial websites/web projects.
+
+**Is the attribution link required?**  
+No, not required. (Though very much appreciated)
+
+
+Contribute
+----------
+**COMING SOON**
+
+
+License
+----------
+**AdminBSBMaterial-ANGULAR** is an open source project that is licensed under the [MIT license](http://opensource.org/licenses/MIT).
