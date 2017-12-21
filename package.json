@@ -1,7 +1,14 @@
 {
   "name": "adminbsbmaterial-angular",
+  "description": "Angular 4 version of the popular AdminBSB material design theme by Güray Yarar"
   "version": "0.0.0",
   "license": "MIT",
+  "author": "Sunny Gohil",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunnyg1210/adminbsbmaterial-ANGULAR.git"
+  },
+  "homepage": "https://github.com/sunnyg1210/adminbsbmaterial-ANGULAR#readme"
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
