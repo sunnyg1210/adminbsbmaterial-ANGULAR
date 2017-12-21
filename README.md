@@ -10,12 +10,12 @@ This angular 4 version has been developed by Sunny Gohil and is supported by the
 
 <br>
 Demo
-----------------
+------
 **COMING SOON**
 
 <br>
 Installation
-----------------
+------
 - Clone the repository:
 `git clone https://github.com/sunnyg1210/adminbsbmaterial-ANGULAR`
 
@@ -30,12 +30,12 @@ Installation
 
 <br>
 Documentation
-----------
+------
 **COMING SOON**
 
 <br>
 Starter Kit
-----------
+------
 **COMING SOON**
 
 <br>
@@ -50,10 +50,10 @@ No, not required. (Though very much appreciated)
 
 <br>
 Contribute
-----------
+------
 **COMING SOON**
 
 <br>
 License
-----------
+------
 **AdminBSBMaterial-ANGULAR** is an open source project that is licensed under the [MIT license](http://opensource.org/licenses/MIT).
