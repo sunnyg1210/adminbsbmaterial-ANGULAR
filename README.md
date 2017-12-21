@@ -39,14 +39,14 @@ Starter Kit
 **COMING SOON**
 
 \
-FAQ (Same as the original project)
+FAQ
 ===
 
 **Can I use this template for personal or commercial websites/web projects?**  
 Sure, you can use both of personal and commercial websites/web projects.
 
 **Is the attribution link required?**  
-No, not required. (Though very much appreciated)
+No, not required.
 
 \
 Contribute
