@@ -41,6 +41,19 @@ import { ProfileComponent } from './pages/profile/profile.component';
 import { BootstrapTablesComponent } from './tables/bootstrap-tables/bootstrap-tables.component';
 import { NgxTableComponent } from './tables/ngx-table/ngx-table.component';
 import { Ng2TableComponent } from './tables/ng2-table/ng2-table.component';
+import { NgxComponent } from './charts/ngx/ngx.component';
+import { AdvancedComponent } from './forms/advanced/advanced.component';
+import { EditorsComponent } from './forms/editors/editors.component';
+import { ExamplesComponent } from './forms/examples/examples.component';
+import { ValidationComponent } from './forms/validation/validation.component';
+import { WizardComponent } from './forms/wizard/wizard.component';
+import { GoogleComponent } from './maps/google/google.component';
+import { BlankComponent } from './pages/blank/blank.component';
+import { ImageGalleryComponent } from './medias/image-gallery/image-gallery.component';
+import { CarouselComponent } from './medias/carousel/carousel.component';
+import { YandexComponent } from './maps/yandex/yandex.component';
+import { JvectorComponent } from './maps/jvector/jvector.component';
+import { BasicFormsComponent } from './forms/basic-forms/basic-forms.component';
 
 const viewsRoutes: Routes = [
   {
@@ -84,7 +97,19 @@ const viewsRoutes: Routes = [
         { path: 'tables/bootstrap', component: BootstrapTablesComponent },
         { path: 'tables/ngx', component: NgxTableComponent },
         { path: 'tables/ng2', component: Ng2TableComponent },
-        
+        { path: 'charts/ngx-charts', component: NgxComponent },
+        { path: 'forms/basic', component: BasicFormsComponent },
+        { path: 'forms/advanced', component: AdvancedComponent },
+        { path: 'forms/editors', component: EditorsComponent },
+        { path: 'forms/examples', component: ExamplesComponent },
+        { path: 'forms/validation', component: ValidationComponent },
+        { path: 'forms/wizard', component: WizardComponent },
+        { path: 'maps/google', component: GoogleComponent },
+        { path: 'maps/yandex', component: YandexComponent },
+        { path: 'maps/jvectormap', component: JvectorComponent },
+        { path: 'medias/image-gallery', component: ImageGalleryComponent },
+        { path: 'medias/carousel', component: CarouselComponent },
+        { path: 'blank', component: BlankComponent },
         { path: 'pages/profile', component: ProfileComponent },
         { path: '', redirectTo: 'home', pathMatch: 'full' }
     ]

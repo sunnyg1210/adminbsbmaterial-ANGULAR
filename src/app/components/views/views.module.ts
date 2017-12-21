@@ -45,6 +45,19 @@ import { ProfileComponent } from './pages/profile/profile.component';
 import { BootstrapTablesComponent } from './tables/bootstrap-tables/bootstrap-tables.component';
 import { NgxTableComponent } from './tables/ngx-table/ngx-table.component';
 import { Ng2TableComponent } from './tables/ng2-table/ng2-table.component';
+import { AdvancedComponent } from './forms/advanced/advanced.component';
+import { ExamplesComponent } from './forms/examples/examples.component';
+import { ValidationComponent } from './forms/validation/validation.component';
+import { WizardComponent } from './forms/wizard/wizard.component';
+import { EditorsComponent } from './forms/editors/editors.component';
+import { ImageGalleryComponent } from './medias/image-gallery/image-gallery.component';
+import { CarouselComponent } from './medias/carousel/carousel.component';
+import { NgxComponent } from './charts/ngx/ngx.component';
+import { BlankComponent } from './pages/blank/blank.component';
+import { GoogleComponent } from './maps/google/google.component';
+import { YandexComponent } from './maps/yandex/yandex.component';
+import { JvectorComponent } from './maps/jvector/jvector.component';
+import { BasicFormsComponent } from './forms/basic-forms/basic-forms.component';
 
 @NgModule({
   imports: [
@@ -94,7 +107,20 @@ import { Ng2TableComponent } from './tables/ng2-table/ng2-table.component';
     ProfileComponent,
     BootstrapTablesComponent,
     NgxTableComponent,
-    Ng2TableComponent
+    Ng2TableComponent,
+    AdvancedComponent,
+    ExamplesComponent,
+    ValidationComponent,
+    WizardComponent,
+    EditorsComponent,
+    ImageGalleryComponent,
+    CarouselComponent,
+    NgxComponent,
+    BlankComponent,
+    GoogleComponent,
+    YandexComponent,
+    JvectorComponent,
+    BasicFormsComponent
   ],
   providers: []
 })
