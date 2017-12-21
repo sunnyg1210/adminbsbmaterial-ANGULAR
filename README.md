@@ -8,11 +8,12 @@ This angular 4 version has been developed by Sunny Gohil and is supported by the
 <a href="https://svsitsolutions.co.uk"><img src="https://svsitsolutions.co.uk/wp-content/uploads/2017/05/new-svs-website-logo.png"></a>
 <a href="http://maverickswebstudio.co.uk"><img src="http://maverickswebstudio.co.uk/wp-content/uploads/2017/04/MA2-1.png" width="70"></a>
 
+<br>
 Demo
 ----------------
 **COMING SOON**
 
-
+<br>
 Installation
 ----------------
 - Clone the repository:
@@ -27,17 +28,17 @@ Installation
 - Build Production code:
 `ng build --prod`
 
-
+<br>
 Documentation
 ----------
 **COMING SOON**
 
-
+<br>
 Starter Kit
 ----------
 **COMING SOON**
 
-
+<br>
 FAQ (Same as the original project)
 ===
 
@@ -47,12 +48,12 @@ Sure, you can use both of personal and commercial websites/web projects.
 **Is the attribution link required?**  
 No, not required. (Though very much appreciated)
 
-
+<br>
 Contribute
 ----------
 **COMING SOON**
 
-
+<br>
 License
 ----------
 **AdminBSBMaterial-ANGULAR** is an open source project that is licensed under the [MIT license](http://opensource.org/licenses/MIT).
