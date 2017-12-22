@@ -11,7 +11,7 @@ This angular 4 version has been developed by the team at [SVS IT SOLUTIONS](http
 \
 Demo
 ------
-**COMING SOON**
+Demo can be found <a href="https://sunnyg1210.github.io/adminbsbmaterial-ANGULAR/">HERE</a>
   
 \
 Installation
