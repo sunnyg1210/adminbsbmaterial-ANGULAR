@@ -1,7 +1,7 @@
 AdminBSBMaterial ANGULAR 4 THEME
 =======================
 
-Fully responsive template converted to Angular 4 from the original html version which can be found [here](https://github.com/gurayyarar/AdminBSBMaterialDesign#readme).
+Fully responsive template converted to Angular 4 (with some extras added) from the original html version which can be found [here](https://github.com/gurayyarar/AdminBSBMaterialDesign#readme).
 
 This angular 4 version has been developed by the team at [SVS IT SOLUTIONS](https://svsitsolutions.co.uk) and [Mavericks Web Studio](http://maverickswebstudio.co.uk)
 
